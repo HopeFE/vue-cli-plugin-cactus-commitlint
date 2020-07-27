@@ -17,7 +17,7 @@ module.exports = (api) => {
     },
     config: {
       commitizen: {
-        path: './node_modules/@cactus/vue-cli-plugin-cactus-commitlint/lib/cz',
+        path: './node_modules/@ycmfe/vue-cli-plugin-cactus-commitlint/lib/cz',
       },
     },
   })

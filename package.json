@@ -1,13 +1,26 @@
 {
-  "name": "vue-cli-plugin-cactus-commitlint",
+  "name": "@ycmfe/vue-cli-plugin-cactus-commitlint",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "cactus commitlint plugin",
   "scripts": {
     "cz": "git add . && git cz"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vue",
+    "cli",
+    "cactus",
+    "commitlint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycmfe/vue-cli-plugin-cactus-commitlint.git"
+  },
+  "homepage": "https://github.com/ycmfe/vue-cli-plugin-cactus-commitlint.git#readme",
+  "author": "chord",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "commitizen": "^4.0.3",
     "commitlint": "^8.2.0",
