@@ -1,0 +1,32 @@
+{
+  "name": "vue-cli-plugin-cactus-commitlint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cz": "git add . && git cz"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "commitlint": "^8.2.0",
+    "husky": "^3.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "lib/cz"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "longest": "^2.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.2.3"
+  }
+}
